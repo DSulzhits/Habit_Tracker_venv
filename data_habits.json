@@ -1,0 +1,70 @@
+[
+  {
+    "model": "habit.habit",
+    "pk": 1,
+    "fields": {
+      "created_by": 1,
+      "name": "Отжиматься по утрам",
+      "place": "Дом",
+      "time": "07:15:00",
+      "action": "10 повторений",
+      "is_pleasant": true,
+      "bound_habit": null,
+      "periodic": 1,
+      "reward": "Сила мышц",
+      "time_for_execution": "00:01:59",
+      "public": true
+    }
+  },
+  {
+    "model": "habit.habit",
+    "pk": 2,
+    "fields": {
+      "created_by": 1,
+      "name": "Качать пресс",
+      "place": "Дом",
+      "time": "07:30:00",
+      "action": "15 повторений",
+      "is_pleasant": true,
+      "bound_habit": 1,
+      "periodic": 1,
+      "reward": "Рельефный торс",
+      "time_for_execution": "00:01:59",
+      "public": true
+    }
+  },
+  {
+    "model": "habit.habit",
+    "pk": 3,
+    "fields": {
+      "created_by": 1,
+      "name": "Чистить зубы",
+      "place": "Дом",
+      "time": "07:40:00",
+      "action": "Чистка зубов 1 минута 30 секунд",
+      "is_pleasant": true,
+      "bound_habit": null,
+      "periodic": 1,
+      "reward": "Здоровые зубы",
+      "time_for_execution": "00:01:30",
+      "public": true
+    }
+  },
+  {
+    "model": "habit.habit",
+    "pk": 4,
+    "fields": {
+      "created_by": 1,
+      "name": "Умывать лицо",
+      "place": "Дом",
+      "time": "07:45:00",
+      "action": "Вымыть лицо при помощи специального мыла",
+      "is_pleasant": true,
+      "bound_habit": null,
+      "periodic": 1,
+      "reward": "Чистая кожа",
+      "time_for_execution": "00:01:00",
+      "public": true
+    }
+  }
+]

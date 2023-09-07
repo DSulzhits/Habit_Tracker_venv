@@ -1,0 +1,65 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$3t9pAXYees0cIceVoyKypD$eIYAmqWhuo0Lywr5PUCRivfhGdl3mKWMpo5E+UdFClE=",
+      "last_login": "2023-08-28T10:47:46.831Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "Adminov",
+      "is_staff": true,
+      "date_joined": "2023-08-27T14:14:51.476Z",
+      "email": "admin@sky.pro",
+      "role": "moderator",
+      "phone": null,
+      "avatar": "",
+      "telegram_id": null,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$3mwh9cc1iwT9VeVBzQioVI$FVXMkZXJ5WVNdfbHLSx5BUk+Qzv2CCFOaw1RGQA6dnk=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Moderator",
+      "last_name": "Moderatov",
+      "is_staff": true,
+      "date_joined": "2023-08-27T14:14:51.672Z",
+      "email": "moderator@sky.pro",
+      "role": "moderator",
+      "phone": null,
+      "avatar": "",
+      "telegram_id": null,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$i5fExMQ3n4xYn6BUVvGWj7$519CCcRsYsd31QLESysZw3JVMlOLtEHB2HaWSDLq4Yc=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Member",
+      "last_name": "Memberov",
+      "is_staff": false,
+      "date_joined": "2023-08-27T14:14:51.822Z",
+      "email": "member@sky.pro",
+      "role": "member",
+      "phone": null,
+      "avatar": "",
+      "telegram_id": null,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
