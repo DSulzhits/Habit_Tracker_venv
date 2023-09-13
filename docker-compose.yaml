@@ -62,6 +62,7 @@ services:
 #      - redis
 #      - postgres
 #      - api
+#      - celery
 
 
 volumes:
